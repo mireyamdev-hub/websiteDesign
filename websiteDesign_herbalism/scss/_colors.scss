@@ -1,0 +1,22 @@
+// Basic colors
+$green:#368b6d;
+$purple:#aba3d2;
+$pink:#f2b9e9;
+$blue: #82d2e5;
+$brightgreen:#c1d72e;
+
+$greemenu:#1e331b;
+
+
+//Color list
+$list: $blue,
+$green,
+$brightgreen;
+
+/// Mixin gradient color
+@mixin gradient($direction, $list) {
+    background: -webkit-linear-gradient($direction, $list);
+    background: -moz-linear-gradient($direction, $list);
+    background: -o-linear-gradient($direction, $list);
+    background: linear-gradient($direction, $list);
+}

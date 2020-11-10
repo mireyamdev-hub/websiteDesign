@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+}
+
+.container-fluid {
+    background-image: url("../img/full-bg.jpg");
+}
+
+#footer {
+    z-index: 10;
+}
+
